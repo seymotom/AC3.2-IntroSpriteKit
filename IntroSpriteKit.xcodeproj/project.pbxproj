@@ -15,6 +15,9 @@
 		14F358BF1E6DB087000CA941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F358BD1E6DB087000CA941 /* Main.storyboard */; };
 		14F358C11E6DB087000CA941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F358C01E6DB087000CA941 /* Assets.xcassets */; };
 		14F358C41E6DB087000CA941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F358C21E6DB087000CA941 /* LaunchScreen.storyboard */; };
+		DEA4EF271E6DB7E80038E330 /* SunnyDayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4EF261E6DB7E80038E330 /* SunnyDayScene.swift */; };
+		DEA4EF291E6F06110038E330 /* cat_twit.wav in Resources */ = {isa = PBXBuildFile; fileRef = DEA4EF281E6F06100038E330 /* cat_twit.wav */; };
+		DEA4EF2B1E6F0A7B0038E330 /* moving_kitty.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DEA4EF2A1E6F0A7B0038E330 /* moving_kitty.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		14F358C01E6DB087000CA941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14F358C31E6DB087000CA941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14F358C51E6DB087000CA941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA4EF261E6DB7E80038E330 /* SunnyDayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunnyDayScene.swift; sourceTree = "<group>"; };
+		DEA4EF281E6F06100038E330 /* cat_twit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat_twit.wav; sourceTree = "<group>"; };
+		DEA4EF2A1E6F0A7B0038E330 /* moving_kitty.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = moving_kitty.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +50,11 @@
 		1440B55D1E6DB0EB007BECB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DEA4EF2A1E6F0A7B0038E330 /* moving_kitty.atlas */,
 				14F358B31E6DB087000CA941 /* AppDelegate.swift */,
 				14F358B51E6DB087000CA941 /* GameScene.sks */,
 				14F358B71E6DB087000CA941 /* Actions.sks */,
+				DEA4EF281E6F06100038E330 /* cat_twit.wav */,
 				14F358BD1E6DB087000CA941 /* Main.storyboard */,
 				14F358C01E6DB087000CA941 /* Assets.xcassets */,
 				14F358C21E6DB087000CA941 /* LaunchScreen.storyboard */,
@@ -76,6 +84,7 @@
 			children = (
 				14F358B91E6DB087000CA941 /* GameScene.swift */,
 				14F358BB1E6DB087000CA941 /* GameViewController.swift */,
+				DEA4EF261E6DB7E80038E330 /* SunnyDayScene.swift */,
 				1440B55D1E6DB0EB007BECB9 /* Supporting Files */,
 			);
 			path = IntroSpriteKit;
@@ -144,7 +153,9 @@
 				14F358B61E6DB087000CA941 /* GameScene.sks in Resources */,
 				14F358C11E6DB087000CA941 /* Assets.xcassets in Resources */,
 				14F358C41E6DB087000CA941 /* LaunchScreen.storyboard in Resources */,
+				DEA4EF2B1E6F0A7B0038E330 /* moving_kitty.atlas in Resources */,
 				14F358B81E6DB087000CA941 /* Actions.sks in Resources */,
+				DEA4EF291E6F06110038E330 /* cat_twit.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +169,7 @@
 				14F358BA1E6DB087000CA941 /* GameScene.swift in Sources */,
 				14F358BC1E6DB087000CA941 /* GameViewController.swift in Sources */,
 				14F358B41E6DB087000CA941 /* AppDelegate.swift in Sources */,
+				DEA4EF271E6DB7E80038E330 /* SunnyDayScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
